@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* CSS Document */
+
+h1 {text-align:center;
+	color:#000000;
+	font-family:'Sen', sans-serif;
+	font-size:10}
+
+h2{text-align:center;
+	color:#000000;
+	font-family:'Sen', sans-serif;
+	font-size:8}
+h3{text-align:center;
+	color:#000000;
+	font-family:'Sen', sans-serif;
+	font-size:8}
+h4{text-align:center;
+	color:#000000;
+	font-family:'Sen', sans-serif;
+	font-size:8}
+ol{text-align:center;
+	color:#F2541B;
+	font-family:'Sen', sans-serif;
+	font-size:1em;
+}
+dl{text-align:center;
+	color: #182621;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	font-size:1em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #37009E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
